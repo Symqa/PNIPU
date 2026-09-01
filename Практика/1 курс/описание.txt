@@ -1,0 +1,2 @@
+Игра - демиург. Создание звезд. 2D-песочница
+https://github.com/VolentCry/PNIPU_Game_practice
