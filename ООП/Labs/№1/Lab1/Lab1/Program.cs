@@ -101,11 +101,11 @@ namespace Lab1
 		// --------------------------------------------------------------------
 		// ЗАДАЧА 3
 		public static void CalculateExpression(float a, float b) {
-			Console.WriteLine( (Math.Pow(a + b, 2) - (Math.Pow(a, 2) + 2 * a * b)) / Math.Pow(b, 2) );
+			Console.WriteLine( (Math.Pow(a + b, 2) - (Math.Pow(a, 2) - 2 * a * b)) / Math.Pow(b, 2) );
 		}
 
 		public static void CalculateExpression(double a, double b) {
-			Console.WriteLine((Math.Pow(a + b, 2) - (Math.Pow(a, 2) + 2 * a * b)) / Math.Pow(b, 2));
+			Console.WriteLine((Math.Pow(a + b, 2) - (Math.Pow(a, 2) - 2 * a * b)) / Math.Pow(b, 2));
 		}
 	}
 }
