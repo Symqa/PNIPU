@@ -1,0 +1,7 @@
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\bin\Debug\Lab1.exe.config
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\bin\Debug\Lab1.exe
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\bin\Debug\Lab1.pdb
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\obj\Debug\Lab1.exe
+E:\PNIPU\Информатика в приложении к отрасли\Labs\№1\Lab1\Lab1\obj\Debug\Lab1.pdb
