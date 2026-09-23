@@ -1,3 +1,3 @@
 SELECT id, fullName, address
-FROM `table_шеремет`
+FROM `table_sheremet`
 ORDER BY address

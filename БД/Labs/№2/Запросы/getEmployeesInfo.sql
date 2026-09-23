@@ -1,1 +1,1 @@
-SELECT id, fullName, phoneNumber, salary FROM `table_шеремет`
+SELECT id, fullName, phoneNumber, salary FROM `table_sheremet`
