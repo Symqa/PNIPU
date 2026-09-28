@@ -1,10 +1,102 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Информация о сотрудниках";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2> Данные сотрудников </h2>
+    <!-- Кнопки -->
+    <div class="mb-4">
+        <button class="btn btn-primary me-2" onclick="showTable('addresses')">Адреса</button>
+        <button class="btn btn-success me-2" onclick="showTable('info')"> Общая информация </button>
+        <button class="btn btn-warning" onclick="showTable('experience')"> Стаж больше 4-ех лет</button>
+    </div>
+
+    <!-- Таблица 1: Адреса -->
+    <div id="addresses" class="query-table" style="display: none;">
+        <h4>Адреса сотрудников</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Адрес</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var line in Model.employeesAddressesList)
+                {
+                    <tr>
+                        <td>@line</td>
+                        <td>@line.fullName</td>
+                        <td>@line.address</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Таблица 2: Общая информация -->
+    <div id="info" class="query-table" style="display: none;">
+        <h4>Общая информация</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Номер телефона</th>
+                    <th>Зарплата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var line in Model.employeesInfoList)
+                {
+                    <tr>
+                        <td>@line.id</td>
+                        <td>@line.fullName</td>
+                        <td>@line.phoneNumber</td>
+                        <td>@line.salary</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Таблица 3: Сотрудники со стажем больше 4-ёх -->
+    <div id="experience" class="query-table", style="display: none;">
+        <h4>Стаж более 4-ех лет</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Стаж</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var line in Model.employeesOlderThanFoursList)
+                {
+                    <tr>
+                        <td>@line.id</td>
+                        <td>@line.fullName</td>
+                        <td>@line.yearsOfService</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+   
+    <!-- Скрипт для переключения -->
+    <script>
+        function showTable(tableId) {
+            var tables = document.querySelectorAll('.query-table');
+
+            tables.forEach(function(table) {
+                table.style.display = 'none';
+            });
+
+            document.getElementById(tableId).style.display = 'block';
+        }
+    </script>
 </div>
