@@ -24,9 +24,9 @@ namespace Lab3.Pages
 
             Dictionary<string, string> sqlRequests = new Dictionary<string, string>()
             {
-                {nameof(EmployeesAddresses), System.IO.File.ReadAllText("P:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getEmployeesAddresses.sql").Replace('\n', ' ')},
-                {nameof(EmployeesInfo), System.IO.File.ReadAllText("P:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getEmployeesInfo.sql").Replace('\n', ' ')},
-                {nameof(EmployeesOlderThanFour), System.IO.File.ReadAllText("P:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getOlderThan4.sql").Replace('\n', ' ')}
+                {nameof(EmployeesAddresses), System.IO.File.ReadAllText("E:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getEmployeesAddresses.sql").Replace('\n', ' ')},
+                {nameof(EmployeesInfo), System.IO.File.ReadAllText("E:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getEmployeesInfo.sql").Replace('\n', ' ')},
+                {nameof(EmployeesOlderThanFour), System.IO.File.ReadAllText("E:\\PNIPU\\БД\\Labs\\№2\\Запросы\\getOlderThan4.sql").Replace('\n', ' ')}
             };
             
 

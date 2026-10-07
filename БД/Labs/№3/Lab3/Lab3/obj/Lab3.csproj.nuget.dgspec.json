@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj": {}
+    "E:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj": {}
   },
   "projects": {
-    "P:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj": {
+    "E:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "E:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "P:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj",
-        "packagesPath": "C:\\Users\\Symqa\\.nuget\\packages\\",
-        "outputPath": "P:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\obj\\",
+        "projectPath": "E:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\Lab3.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "E:\\PNIPU\\БД\\Labs\\№3\\Lab3\\Lab3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "P:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\vs_sdk\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Symqa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
