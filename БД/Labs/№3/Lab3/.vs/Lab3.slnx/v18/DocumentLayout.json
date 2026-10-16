@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\",
+  "WorkspaceRootPath": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|e:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|p:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|e:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|e:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|p:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|e:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|p:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|p:\\pnipu\\\u0431\u0434\\labs\\\u21163\\lab3\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,26 +30,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Requests.cs",
-              "DocumentMoniker": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Requests.cs",
+              "DocumentMoniker": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Requests.cs",
               "RelativeDocumentMoniker": "Lab3\\Requests.cs",
-              "ToolTip": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Requests.cs",
+              "ToolTip": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Requests.cs",
               "RelativeToolTip": "Lab3\\Requests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T19:14:15.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml.cs",
+              "DocumentMoniker": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Lab3\\Pages\\Index.cshtml.cs",
-              "ToolTip": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml.cs",
+              "ToolTip": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Lab3\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T14:08:29.653Z",
               "EditorCaption": ""
@@ -58,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml",
+              "DocumentMoniker": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab3\\Pages\\Index.cshtml",
-              "ToolTip": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml",
+              "ToolTip": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml",
               "RelativeToolTip": "Lab3\\Pages\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-24T14:07:54.654Z",
               "EditorCaption": ""
@@ -71,14 +71,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Program.cs",
+              "DocumentMoniker": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Program.cs",
               "RelativeDocumentMoniker": "Lab3\\Program.cs",
-              "ToolTip": "E:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Program.cs",
+              "ToolTip": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Program.cs",
               "RelativeToolTip": "Lab3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T13:58:38.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-24T13:58:38.077Z"
             }
           ]
         }

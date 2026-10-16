@@ -1,0 +1,98 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Информация о сотрудниках";
+}
+
+<div class="text-center">
+    <h2> DML и DDL </h2>
+    
+    <!-- Таблица 1: Адреса -->
+    <div id="addresses" class="query-table" style="display: none;">
+        <h4>Адреса сотрудников</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Адрес</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Таблица 2: Общая информация -->
+    <div id="info" class="query-table" style="display: none;">
+        <h4>Общая информация</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Номер телефона</th>
+                    <th>Зарплата</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Таблица 3: Сотрудники со стажем больше 4-ёх -->
+    <div id="experience" class="query-table" style="display: none;">
+        <h4>Стаж более 4-ех лет</h4>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Стаж</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Блок ввода SQL команд -->
+    <div class="mt-5 w-75 mx-auto text-start">
+        <h4>Выполнение SQL запроса</h4>
+        <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Введите SQL команду..."></textarea>
+        </div>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+            <!-- DDL -->
+            <button type="button" class="btn btn-outline-danger">CREATE</button>
+            <button type="button" class="btn btn-outline-danger">ALTER</button>
+            <button type="button" class="btn btn-outline-danger">DROP</button>
+            <button type="button" class="btn btn-outline-danger">TRUNCATE</button>
+
+            <!-- DML -->
+            <button type="button" class="btn btn-outline-primary">INSERT</button>
+            <button type="button" class="btn btn-outline-primary">UPDATE</button>
+            <button type="button" class="btn btn-outline-primary">DELETE</button>
+
+            <!-- Запросы и соединения -->
+            <button type="button" class="btn btn-outline-success">SELECT</button>
+            <button type="button" class="btn btn-outline-info">INNER JOIN</button>
+        </div>
+    </div>
+
+    <!-- Скрипт для переключения -->
+    <script>
+            function showTable(tableId) {
+                var tables = document.querySelectorAll('.query-table');
+
+                tables.forEach(function(table) {
+                    table.style.display = 'none';
+                });
+
+                document.getElementById(tableId).style.display = 'block';
+            }
+    </script>
+</div>
