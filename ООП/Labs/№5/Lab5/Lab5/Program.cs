@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 
 namespace Lab5
@@ -37,7 +39,7 @@ namespace Lab5
                         Console.WriteLine("Выход");
                         break;
                 }
-            } while (choice != 3);
+            } while (choice != 4);
         }
 
         static void StartTwoDimensionalArrays(ref int [ , ] dynamicArray)
@@ -248,7 +250,20 @@ namespace Lab5
 
         static void StartString(ref string str)
         {
-            
+            Console.WriteLine($"Исходная строка: {str}\n");
+            string strCopy = String.Copy(str);
+
+            string pattern = @"\w+";
+            MatchCollection matches = Regex.Matches(str, pattern);
+            foreach (Match match in matches)
+            {
+                char[] charWordArray = match.Value.ToCharArray();
+                Array.Reverse(charWordArray);
+                string reversed_word = new string(charWordArray);
+
+                str = str.Replace(match.Value, reversed_word);
+            }
+            Console.WriteLine($"Строка с перевернутыми словами: {str}");
         }
 
         // Вывод меню (против дублирования кода)
