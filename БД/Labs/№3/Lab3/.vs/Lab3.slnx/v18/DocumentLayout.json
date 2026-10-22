@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Lab3\\Pages\\Index.cshtml.cs",
               "ToolTip": "P:\\PNIPU\\\u0411\u0414\\Labs\\\u21163\\Lab3\\Lab3\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Lab3\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwCUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T14:08:29.653Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Lab3\\Pages\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-24T14:07:54.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-24T14:07:54.654Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Lab3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T13:58:38.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-24T13:58:38.077Z"
             }
           ]
         }
