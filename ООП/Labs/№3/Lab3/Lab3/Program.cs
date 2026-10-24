@@ -12,7 +12,7 @@ namespace Lab3
 		static void Main(string[] args)
 		{
 			double a = Math.PI/5, b = Math.PI*9/5;
-			const int N = 40;
+			const int N = 140;
 			const double Epsilon = 0.0001;
 
 			double y, sumN, sumEpsilon;
@@ -22,7 +22,7 @@ namespace Lab3
 				sumEpsilon = GetSumEpsilon(x, Epsilon);
                 y = Function(x);
 
-				Console.WriteLine($"X={x} " + $"SN={sumN} " + $"SE={sumEpsilon} " + $"Y = {y}");
+				Console.WriteLine($"X={x,-10:f2} " + $"SN={sumN, -10:f4} " + $"SE={sumEpsilon,-10:f4} " + $"Y = {y,-10:f4}");
 			}
 			
 		}
@@ -37,10 +37,10 @@ namespace Lab3
 			return Math.Cos(n * x) / n;
 		}
 
-		static double GetSumN(double x, int N)
+		static double GetSumN(double x, int n)
 		{
 			double sumN = 0.0;
-            for (int i = 1; i <= N; i++)
+            for (int i = 1; i <= n; i++)
             {
                 sumN += Fi(x, i);
             }
